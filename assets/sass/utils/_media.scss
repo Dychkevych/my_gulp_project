@@ -1,0 +1,29 @@
+/* ========================================================
+                        Media
+======================================================== */
+
+/*--------------- Mobile first method -------------------*/
+
+// //ADDITON => Custom, iPhone Retina
+// $iPhone: "screen and (min-width : 320px)";
+// //ADDITON => Extra Small Devices, Phones
+// $phone: "screen and (min-width : 480px)";
+// //ADDITON => Small Devices, Tablets
+// $tablet: "screen and (min-width : 768px)";
+// //ADDITON => Medium Devices, Desktops
+// $desktop: "screen and (min-width : 992px)";
+// //ADDITON => Large Devices, Wide Screens
+// $screen: "screen and (min-width : 1170px)";
+
+/*--------------- Desktop first method ------------------*/
+
+//ADDITON => Large Devices, Wide Screens
+$screen: "screen and (max-width : 1200px)";
+//ADDITON => Medium Devices, Desktops
+$desktop: "screen and (max-width : 992px)";
+//ADDITON => Small Devices, Tablets
+$tablet: "screen and (max-width : 768px)";
+//ADDITON => Extra Small Devices, Phones
+$phone: "screen and (max-width : 480px)";
+//ADDITON => Custom, iPhone Retina
+$iPhone: "screen and (max-width : 320px)";
